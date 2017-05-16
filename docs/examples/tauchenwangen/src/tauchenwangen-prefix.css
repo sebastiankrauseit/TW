@@ -1,0 +1,131 @@
+/** Mains**/
+
+.col--white {
+	background-color:white;
+}
+
+.container {
+	margin-bottom:20px;
+}
+
+.list-default-smaller-padding{
+	padding-left: 17px;
+}
+
+.col-md-12--footer {
+	background:#181818;
+	border-top:5px solid #383730;
+	color: white !important;
+}
+
+.col-md-12--footer a {
+	color: #8787ff;
+	cursor:pointer;
+}
+
+.col-md-12--footer  ul li{
+	line-height: 2.85714286;
+}
+
+.col-md-12--footer  ul.list-default-links{
+	list-style: square;
+	padding-left: 17px;
+	color: #696969;
+}
+.col-md-12--footer  ul.list-default-links li{
+	list-style: square;
+}
+
+.col-md-12--weisscontainer {
+	background-color:white;
+	border: 1px solid grey;
+	padding-top: 15px;
+}
+
+.col-md-12--weisscontainer figcaption {
+	margin-bottom: 5px;
+}
+
+.background-cols > .col-md-12,
+.background-cols > .col-lg-12,
+.background-cols > .col-xs-12 {
+	background-color:white;
+	border:1px solid grey;
+}
+
+.background-cols .panel {
+	margin-top:20px;
+}
+
+.background-cols .panel > .panel-body {
+	font-size:13px;
+}
+
+.background-cols .panel > .panel-body-symbol::before {
+	display:inline-block;
+}
+
+@media screen and (min-device-width : 768px) {
+
+	.background-cols .panel > .panel-body-symbol::before {
+	display: block;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    float: left;
+    position: relative;
+    top: -31px;
+    right: -145px;
+    /*margin-top und top =hälfte von höhe*/
+	}
+}
+
+@media screen and (min-device-width : 992px) {
+
+	.background-cols .panel > .panel-body-symbol::before {
+	display: block;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    float: right;
+    position: relative;
+    right: -25px;
+    top: 0px;
+    margin-top: -30px;
+    /*margin-top und top =hälfte von höhe*/
+	}
+}
+
+@media screen and (min-device-width : 992px) {
+	.background-cols .panel > .panel-body-symbol--hand::before{
+		background-image: url("../img/badge-2.png");
+		background-position: 0 0;
+		background-size: 100%;
+	}
+
+	.background-cols .panel > .panel-body-symbol--gear::before{
+		background-image: url("../img/badge-2.png");
+		background-position: 0px -47px;
+	}
+}
+
+@media screen and (max-device-width : 990px){
+	.background-cols .panel > .panel-body-symbol--hand::before{
+		background-image: url("../img/badge-2.png");
+		background-position: 0 0;
+		background-size: 35px 712%;
+	}
+
+	.background-cols .panel > .panel-body-symbol--gear::before{
+		background-image: url("../img/badge-2.png");
+		background-position: 0px -35px;
+		background-size: 35px 712%;
+	}
+}
+
+
+/*Google Maps*/
+
+#googlemaps {
+	padding-bottom:21px;
+}
